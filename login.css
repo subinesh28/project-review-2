@@ -1,0 +1,76 @@
+*{
+    font-family: 'poppins' ,sans-serif;
+    
+}
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/007/762/665/original/graphics-drawing-landscape-view-nature-mountain-and-light-of-sunset-for-wallpaper-background-illustration-free-vector.jpg")
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+h1{
+    color: black;
+    font-size: small;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+p{
+    color: #e72f06;
+    font-style: italic;
+    
+}
+
+
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(234, 66, 66, 0.7);
+    cursor: pointer;
+    transition: .3s ;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #845757;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #eb0e0e;
+}
